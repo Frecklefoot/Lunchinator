@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Lunchinator.Services
+namespace SM.Lunchinator.Services
 {
     public interface ISmsSender
     {

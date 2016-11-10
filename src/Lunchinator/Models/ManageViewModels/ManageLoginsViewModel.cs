@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http.Authentication;
 using Microsoft.AspNetCore.Identity;
 
-namespace Lunchinator.Models.ManageViewModels
+namespace SM.Lunchinator.Models.ManageViewModels
 {
     public class ManageLoginsViewModel
     {

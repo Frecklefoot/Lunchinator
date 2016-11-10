@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Lunchinator.Controllers
+namespace SM.Lunchinator.Controllers
 {
-    public class HomeController : Controller
+	public class HomeController : Controller
     {
-        public IActionResult Index()
+		// ----==== PAGES ====---------------------------------------------------------------------
+
+		public IActionResult Index()
         {
             return View();
         }
@@ -31,5 +29,9 @@ namespace Lunchinator.Controllers
         {
             return View();
         }
-    }
+
+		// ----==== PRIVATE ====---------------------------------------------------------------------
+
+		private string Title { get { return ViewData["Title"] as string; } set { ViewData["Title"] = value; } }
+	}
 }

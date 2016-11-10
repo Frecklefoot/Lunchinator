@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 
-namespace Lunchinator.Models.ManageViewModels
+namespace SM.Lunchinator.Models.ManageViewModels
 {
     public class IndexViewModel
     {

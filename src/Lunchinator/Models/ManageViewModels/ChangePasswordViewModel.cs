@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Lunchinator.Models.ManageViewModels
+namespace SM.Lunchinator.Models.ManageViewModels
 {
     public class ChangePasswordViewModel
     {

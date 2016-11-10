@@ -9,9 +9,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Lunchinator.Data;
-using Lunchinator.Models;
-using Lunchinator.Services;
+using SM.Lunchinator.Data;
+using SM.Lunchinator.Models;
+using SM.Lunchinator.Services;
 
 namespace Lunchinator
 {

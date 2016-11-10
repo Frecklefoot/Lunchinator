@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Lunchinator.Models;
+using SM.Lunchinator.Models;
 
-namespace Lunchinator.Data
+namespace SM.Lunchinator.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

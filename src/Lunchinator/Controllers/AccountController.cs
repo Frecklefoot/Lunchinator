@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
-using Lunchinator.Models;
-using Lunchinator.Models.AccountViewModels;
-using Lunchinator.Services;
+using SM.Lunchinator.Models;
+using SM.Lunchinator.Models.AccountViewModels;
+using SM.Lunchinator.Services;
 
-namespace Lunchinator.Controllers
+namespace SM.Lunchinator.Controllers
 {
     [Authorize]
     public class AccountController : Controller

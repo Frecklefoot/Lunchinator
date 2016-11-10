@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace Lunchinator.Models.AccountViewModels
+namespace SM.Lunchinator.Models.AccountViewModels
 {
     public class SendCodeViewModel
     {
