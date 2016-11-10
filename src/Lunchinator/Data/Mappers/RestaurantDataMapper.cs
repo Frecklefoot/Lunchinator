@@ -5,7 +5,7 @@ using SM.Lunchinator.Data.Mappers.Interfaces;
 using BO = SM.Lunchinator.Models;
 using DM = SM.Lunchinator.Data.Entities;
 
-namespace DotNetCoreAzure.DataMappers
+namespace SM.Lunchinator.Data.Mappers
 {
 	public class RestaurantDataMapper : DataMapper<BO.RestaurantModel, DM.Restaurant>, IRestaurantDataMapper
 	{
