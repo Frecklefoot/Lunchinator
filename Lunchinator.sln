@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Lunchinator", "src\Lunchinator\Lunchinator.xproj", "{9748ACC9-0DEA-4FC0-827D-5EF156E3BE70}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SM.DataModels.Common", "src\SM.DataModels.Common\SM.DataModels.Common.xproj", "{AB2EA34C-4021-4126-9482-F69560176683}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +25,16 @@ Global
 		{9748ACC9-0DEA-4FC0-827D-5EF156E3BE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9748ACC9-0DEA-4FC0-827D-5EF156E3BE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9748ACC9-0DEA-4FC0-827D-5EF156E3BE70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2EA34C-4021-4126-9482-F69560176683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2EA34C-4021-4126-9482-F69560176683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2EA34C-4021-4126-9482-F69560176683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2EA34C-4021-4126-9482-F69560176683}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9748ACC9-0DEA-4FC0-827D-5EF156E3BE70} = {6AD0CDE7-C35A-4381-B209-C550AE2F55DD}
+		{AB2EA34C-4021-4126-9482-F69560176683} = {6AD0CDE7-C35A-4381-B209-C550AE2F55DD}
 	EndGlobalSection
 EndGlobal
